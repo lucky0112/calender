@@ -2,10 +2,22 @@
   "name": "calender",
   "version": "0.1.0",
   "private": true,
+  "main": "app.js",
   "dependencies": {
+    "date-fns": "^1.29.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "muicss": "^0.9.41",
+    "query-string": "^6.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-router": "^2.0.1",
+    "react-router-dom": "^4.0.0",
     "react-scripts": "2.1.1"
+  },
+  "engines": {
+    "node": "~6.10.3",
+    "npm": "~5.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
